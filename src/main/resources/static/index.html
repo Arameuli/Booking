@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="index.css"/>
+    <title>Roomchat</title>
+</head>
+<body>
+<center><label class="title">Booking</label></center>
+
+<div class="popup">
+    <div class="popupwindow">
+        <div class="verticallayout">
+            <label class="title" style="font-size: 25px" id="title">New room</label>
+                <div class="horizontallayout" id="popupmaindiv">
+                    <select id="select"></select>
+                    <button style="width: 106px;height: 21px;margin-left: 50px;" type="button" onclick="submitreserve()">Submit</button>
+                </div>
+        </div>
+    </div>
+</div>
+
+<div class="verticallayout">
+    <div id="roomdiv"></div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
